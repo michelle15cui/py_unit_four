@@ -15,7 +15,9 @@ def main():
     num = int(input("What is the first number? "))
     check = int(input("What is the second number? "))
 
-    if is_divisible(num, check):
+
+
+    if num % check == 0:
         print(num, "is divisible by", check)
     else:
         print(num, "is not divisible by", check)
